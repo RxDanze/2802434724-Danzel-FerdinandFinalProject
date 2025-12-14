@@ -7,7 +7,7 @@ public class BirdController : MonoBehaviour
     private Rigidbody2D _rb2d;
     private float _flapForce = 5f;
     private bool _isAlive = true;
-    [SerializeField]private float _ybounds = 5f;
+    [SerializeField]private float _ybounds = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -29,18 +29,24 @@ public class BirdController : MonoBehaviour
             return;
         }
         _isAlive = false;
-        Debug.Log("Die");
+        GameManager.Instance.GameOver();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space)){
+        if(!GameManager.Instance.IsGameStarted())
+        {
+            return;
+        }
+        if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space))
+        {
             Flap();
         }
-        if (_isAlive && transform.position.y < _ybounds)
+        if (transform.position.y < _ybounds)
         {
             Die();
+            // Debug.Log("Cek!");
         }
 
     }
