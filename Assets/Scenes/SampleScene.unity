@@ -197,12 +197,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: 21300000, guid: e2dc4115762a2784d94172613b17e53b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ce6b705e424b1e740b9fb6188fb18b9d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 18.461538, y: 10.384615}
+  m_Size: {x: 4.8, y: 2.7}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -449,9 +449,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.10084224, y: 0}
   serializedVersion: 2
-  m_Radius: 0.71215165
+  m_Radius: 0.68273485
 --- !u!114 &232742043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -694,21 +694,25 @@ PrefabInstance:
       propertyPath: m_HorizontalAlignment
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2631866731652865848, guid: b0b0cc6e7b46f334696e10368e5af1c5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2631866731652865849, guid: b0b0cc6e7b46f334696e10368e5af1c5, type: 3}
       propertyPath: m_SizeDelta.x
-      value: -1596.8918
+      value: -1611.4915
       objectReference: {fileID: 0}
     - target: {fileID: 2631866731652865849, guid: b0b0cc6e7b46f334696e10368e5af1c5, type: 3}
       propertyPath: m_SizeDelta.y
-      value: -831.5991
+      value: -902.0927
       objectReference: {fileID: 0}
     - target: {fileID: 2631866731652865849, guid: b0b0cc6e7b46f334696e10368e5af1c5, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -798.4443
+      value: -805.7503
       objectReference: {fileID: 0}
     - target: {fileID: 2631866731652865849, guid: b0b0cc6e7b46f334696e10368e5af1c5, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 415.79858
+      value: 451.04895
       objectReference: {fileID: 0}
     - target: {fileID: 2631866731652865850, guid: b0b0cc6e7b46f334696e10368e5af1c5, type: 3}
       propertyPath: m_Color.b
@@ -736,7 +740,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2631866732185688989, guid: b0b0cc6e7b46f334696e10368e5af1c5, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2631866732185688991, guid: b0b0cc6e7b46f334696e10368e5af1c5, type: 3}
       propertyPath: m_Color.b
@@ -756,7 +760,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2631866732249564994, guid: b0b0cc6e7b46f334696e10368e5af1c5, type: 3}
       propertyPath: m_fontSize
-      value: 24
+      value: 36
       objectReference: {fileID: 0}
     - target: {fileID: 2631866732249564994, guid: b0b0cc6e7b46f334696e10368e5af1c5, type: 3}
       propertyPath: m_margin.z
@@ -764,7 +768,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2631866732249564994, guid: b0b0cc6e7b46f334696e10368e5af1c5, type: 3}
       propertyPath: m_fontSizeBase
-      value: 24
+      value: 36
       objectReference: {fileID: 0}
     - target: {fileID: 2631866732249564994, guid: b0b0cc6e7b46f334696e10368e5af1c5, type: 3}
       propertyPath: m_HorizontalAlignment
@@ -801,6 +805,10 @@ PrefabInstance:
     - target: {fileID: 2631866732574177563, guid: b0b0cc6e7b46f334696e10368e5af1c5, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -12.900024
+      objectReference: {fileID: 0}
+    - target: {fileID: 2631866732574177564, guid: b0b0cc6e7b46f334696e10368e5af1c5, type: 3}
+      propertyPath: m_text
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2631866733003245576, guid: b0b0cc6e7b46f334696e10368e5af1c5, type: 3}
       propertyPath: m_Name
@@ -2027,7 +2035,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: 21300000, guid: e2dc4115762a2784d94172613b17e53b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ce6b705e424b1e740b9fb6188fb18b9d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
