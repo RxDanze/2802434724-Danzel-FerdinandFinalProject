@@ -29,6 +29,11 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 0f;
     }
 
+    public void switchscene()
+    {
+        SceneManager.LoadScene("SampleScene");
+    }
+
     public void StartGame()
     {
         if(isGameStarted) return;
@@ -62,6 +67,11 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+    
     public bool IsGameStarted()
     {
         return isGameStarted;
